@@ -13,6 +13,6 @@ The above step can be skipped and already built docker image (guneetginnigarg/vi
 <br>b. spring.datasource.username -- Username of the postgresql database. 
 <br>c. spring.datasource.password -- Password of the postgresql database.
 <br>d. google.youtube.api-key -- Youtube API v3 API Key
-3. Run the "docker-compose up -d" (You need to be docker directory) 
+3. Run the "docker-compose up -d" (You need to be docker directory) <br><br>
 Datasource properties can be ignored if required. Docker compose already has a inbuilt postgresql container
 
