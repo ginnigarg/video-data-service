@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.psg</groupId>
 	<artifactId>video-service</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>video-service</name>
 	<description>Demo project for Video Service</description>
 	<properties>

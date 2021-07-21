@@ -8,7 +8,7 @@ The data saved in database can be fetched using the API mentioned below which wo
 1. Clone the project
 2. If you wish to push docker image to your own docker registry, modify the configuration of docker plugin in pom.xml to set the destination docker repository
 3. "mvn clean install" or "mvn clean install -Ddockerfile.skip" (You need to be in directory with pom.xml file)<br><br>
-The above step can be skipped and already built docker image (guneetginnigarg/video-data-service:1.0.0) can be used
+The above step can be skipped and already built docker image (guneetginnigarg/video-data-service:0.0.1) can be used
 
 ## How to run the service
 1. Move to the docker directory in the project
