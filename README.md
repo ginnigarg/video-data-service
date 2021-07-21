@@ -16,3 +16,12 @@ The above step can be skipped and already built docker image (guneetginnigarg/vi
 3. Run the "docker-compose up -d" (You need to be docker directory) <br><br>
 Datasource properties can be ignored if required. Docker compose already has a inbuilt postgresql container
 
+## API to get the video data from Database
+curl --location --request GET 'http://localhost:8080/v1/videos'
+<br>
+The response in paginated.
+Query Parameters(All Properties are optional):
+1. pageNumber -- Page Number of the response -- Default value is 1. Page Number starts with 1
+2. pageSize -- Offset for the page in the response -- Default value is 10. Page Size can not be greater than 1000
+3. title -- Return the data with the mentioned title. -- No default value. If not passed, there will be no filter on based of title
+4. description -- Return the data with the mentioned description. -- No default value. If not passed, there will be no filter on based of description
